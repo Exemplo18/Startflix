@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+header{
+    width: 92%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+header img{
+    width: 200px;
+    height: 50px;
+}
+header button{
+    background-color: #cb0909;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+main{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 8%;
+}
+main h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+}
+main h2{
+    font-size: 36px;
+}
+main p{
+    font-size: 24px;
+}
+#botao-pesquisa{
+    background-color: #cb0909;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+input{
+    width: 30%;
+    height: 35px;
+}
+.gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+/* Aplicar borda no topo, e flexbox deixando os itens de cima para baixo e alinhados ao meio */
+.container-midia{
+    border-top: solid 5px rgba(104, 103, 103, 0.5);
+    background-color: black;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 5px rgba(104, 103, 103, 0.5);
+}
+.titulos h1{
+    font-size: 42px;
+}
+.titulos p{
+    font-size: 24px;
+}
+.img-tv{
+    position: relative;
+}
+.img-tv img{
+    position: relative;
+    z-index: 1;
+}
+.container-video{
+    position: absolute;
+    top: 21%;
+    left: 13%;
+    width: 400px;
+}
+.container-eleven{
+    border-top: solid 5px rgba(104, 103, 103, 0.5);
+    background-color: black;
+    padding-top: 3%;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 5px rgba(104, 103, 103, 0.5);
+}
+.container-eleven img{
+    margin-left: 15%;
+}
+.container-eleven h2{
+    font-size: 42px;
+}
+.container-eleven p{
+    font-size: 24px;
+
+}
+.video-tv{
+    background-color: black;
+    width: 350px;
+    position: absolute;
+    top: 21%;
+    left: 23%;
+    width: 350px;
+}
+.titulos2 h2{
+    font-size: 42px;
+}
+.titulos2 p{
+    font-size: 24px;
+}

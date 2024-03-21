@@ -1,0 +1,22 @@
+
+.container-midia{
+    border-top: solid gray 5px;
+    background-color: black;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.img-tv{
+    position:relative;
+}
+.img-tv img {
+    position: relative;
+    z-index: 1;
+}
+.container-video{
+    position: absolute;
+    top: 21%;
+    left: 13.3%;
+    width: 400px;
+}
